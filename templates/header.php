@@ -40,7 +40,7 @@ $currentPage = basename($_SERVER['SCRIPT_NAME']);
             <div class="col-md-3 text-end">
                 <?php if (!isset($_SESSION['user'])) { ?>
                     <a href="login.php" class="btn btn-outline-primary me-2">Se connecter</a>
-                    <a href="inscription.php" class="btn btn-outline-primary me-2">S'inscrire</a>
+                    
                 <?php } else { ?>
                     <a href="logout.php" class="btn btn-primary">Se déconnecter</a>
                 <?php } ?>
